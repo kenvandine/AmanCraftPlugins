@@ -11,7 +11,7 @@ import org.bukkit.event.block.BlockPhysicsEvent;
 
 /**
  * AmanCraft block listener
- * @author Dinnerbone
+ * @author kenvandine
  */
 public class AmanCraftBlockListener implements Listener {
     @EventHandler

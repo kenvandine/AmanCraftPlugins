@@ -10,7 +10,7 @@ import org.bukkit.event.player.PlayerQuitEvent;
 
 /**
  * Handle events for all Player related events
- * @author Dinnerbone
+ * @author kenvandine
  */
 public class AmanCraftPlayerListener implements Listener {
     private final AmanCraftPlugin plugin;

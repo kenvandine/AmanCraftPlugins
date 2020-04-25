@@ -7,7 +7,7 @@ import org.bukkit.entity.Player;
 
 /**
  * Handler for the /debug amancraft command.
- * @author SpaceManiac
+ * @author kenvandine
  */
 public class AmanCraftDebugCommand implements CommandExecutor {
     private final AmanCraftPlugin plugin;

@@ -10,7 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 /**
  * AmanCraft plugin for Bukkit
  *
- * @author Dinnerbone
+ * @author kenvandine
  */
 public class AmanCraftPlugin extends JavaPlugin {
     private final AmanCraftPlayerListener playerListener = new AmanCraftPlayerListener(this);
@@ -39,6 +39,8 @@ public class AmanCraftPlugin extends JavaPlugin {
         // Register our commands
         getCommand("pos").setExecutor(new AmanCraftPosCommand());
         getCommand("debug").setExecutor(new AmanCraftDebugCommand(this));
+        getCommand("hideme").setExecutor(new AmanCraftHideMeCommand());
+        getCommand("showme").setExecutor(new AmanCraftShowMeCommand());
 
         // EXAMPLE: Custom code, here we just output some info so we can check all is well
         PluginDescriptionFile pdfFile = this.getDescription();

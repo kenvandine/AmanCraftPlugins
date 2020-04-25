@@ -9,7 +9,7 @@ import org.bukkit.entity.Player;
 
 /**
  * Handler for the /pos amancraft command.
- * @author SpaceManiac
+ * @author kenvandine
  */
 public class AmanCraftPosCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] split) {
